@@ -37,10 +37,10 @@ def train_SVM(data, finger1, finger2):
     print(str(round(acc, 2)))
     return acc
 
-def process_subject(subject_id):
+def process_subject(subject_id, tag):
     # Load the dictionary from the HDF5 file
     target_dir = 'features'
-    file_path = os.path.join(target_dir, cfg['subjects'][subject_id] + '.h5')
+    file_path = os.path.join(target_dir, tag + '_' + cfg['subjects'][subject_id] + '.h5')
 
 
     data = {}
@@ -60,12 +60,14 @@ def process_subject(subject_id):
     return result
 
 def main():
+    #Params
+    tag = 'reproduced'
     results =  pd.DataFrame(columns=['subject', 'finger1', 'finger2', 'accuracy'])
 
     for subject_id in range(5):
         subject = cfg['subjects'][subject_id]
         print("Processing Subject: ", subject)
-        result = process_subject(subject_id)
+        result = process_subject(subject_id, tag)
         for key in result:
             finger1, finger2 = key.split('_')
             results = results._append({'subject': subject, 'finger1': finger1, 'finger2': finger2, 'accuracy': result[key]}, ignore_index=True)
