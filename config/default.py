@@ -1,5 +1,6 @@
 cfg = dict(
-    data_root = 'C:/Data/UHD_EEG/',
+    data_root = 'C:/Data/UHD_EEG/', # https://osf.io/4dwjt/?view_only=d23acfd50655427fbaae381a17cbfbcc
+
 
     subjects = ['S1', 'S2', 'S3', 'S4', 'S5'],
     dominant_hand = ['left','right','right','right','right'],
