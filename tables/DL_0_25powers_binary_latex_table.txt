@@ -1,0 +1,11 @@
+\begin{tabular}{lllllllllll}
+\toprule
+    & little/index        & middle/index        & middle/little       & ring/index          & ring/little         & ring/middle         & thumb/index         & thumb/little        & thumb/middle        & thumb/ring          \\
+\midrule
+ S1 & 61 (\textbf{0.035}) & 66 (\textbf{0.002}) & 59 (0.089)          & 86(\textbf{\ensuremath{<}0.001}) & 85(\textbf{\ensuremath{<}0.001}) & 75(\textbf{\ensuremath{<}0.001}) & 67(\textbf{\ensuremath{<}0.001}) & 63 (\textbf{0.012}) & 71(\textbf{\ensuremath{<}0.001}) & 88(\textbf{\ensuremath{<}0.001}) \\
+ S2 & 62 (\textbf{0.035}) & 62 (\textbf{0.021}) & 64 (\textbf{0.012}) & 60 (0.057)          & 65 (\textbf{0.004}) & 65 (\textbf{0.007}) & 66 (\textbf{0.004}) & 62 (\textbf{0.021}) & 57 (0.193)          & 68(\textbf{\ensuremath{<}0.001}) \\
+ S3 & 65 (\textbf{0.004}) & 66 (\textbf{0.004}) & 65 (\textbf{0.004}) & 72(\textbf{\ensuremath{<}0.001}) & 74(\textbf{\ensuremath{<}0.001}) & 80(\textbf{\ensuremath{<}0.001}) & 70(\textbf{\ensuremath{<}0.001}) & 63 (\textbf{0.012}) & 67(\textbf{\ensuremath{<}0.001}) & 77(\textbf{\ensuremath{<}0.001}) \\
+ S4 & 59 (0.089)          & 56 (0.271)          & 62 (\textbf{0.035}) & 53 (0.617)          & 62 (\textbf{0.021}) & 65 (\textbf{0.007}) & 53 (0.617)          & 58 (0.193)          & 68(\textbf{\ensuremath{<}0.001}) & 65 (\textbf{0.007}) \\
+ S5 & 62 (\textbf{0.021}) & 64 (\textbf{0.007}) & 64 (\textbf{0.007}) & 57 (0.193)          & 66 (\textbf{0.004}) & 63 (\textbf{0.021}) & 64 (\textbf{0.012}) & 66 (\textbf{0.004}) & 62 (\textbf{0.021}) & 64 (\textbf{0.012}) \\
+\bottomrule
+\end{tabular}

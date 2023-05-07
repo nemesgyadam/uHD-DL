@@ -87,6 +87,8 @@ def main():
             fingers = key
             accuracy = result[key]
             results_np[subject_id, i] = accuracy
+        break
+    print(results_np)
          
     results = pd.DataFrame(results_np, columns=columns)
 

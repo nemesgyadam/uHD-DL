@@ -1,0 +1,11 @@
+\begin{tabular}{lllllllllll}
+\toprule
+    & little/index   & middle/index        & middle/little       & ring/index          & ring/little         & ring/middle         & thumb/index         & thumb/little        & thumb/middle        & thumb/ring          \\
+\midrule
+ S1 & 58 (0.193)     & 57 (0.193)          & 58 (0.133)          & 76(\textbf{\ensuremath{<}0.001}) & 81(\textbf{\ensuremath{<}0.001}) & 78(\textbf{\ensuremath{<}0.001}) & 63 (\textbf{0.012}) & 62 (\textbf{0.021}) & 62 (\textbf{0.021}) & 85(\textbf{\ensuremath{<}0.001}) \\
+ S2 & 60 (0.057)     & 58 (0.193)          & 51 (0.920)          & 59 (0.089)          & 61 (\textbf{0.035}) & 61 (0.057)          & 56 (0.271)          & 53 (0.617)          & 49 (0.764)          & 64 (\textbf{0.007}) \\
+ S3 & 60 (0.057)     & 63 (\textbf{0.012}) & 57 (0.193)          & 67(\textbf{\ensuremath{<}0.001}) & 71(\textbf{\ensuremath{<}0.001}) & 74(\textbf{\ensuremath{<}0.001}) & 60 (0.057)          & 56 (0.368)          & 58 (0.193)          & 74(\textbf{\ensuremath{<}0.001}) \\
+ S4 & 55 (0.368)     & 56 (0.368)          & 57 (0.271)          & 52 (0.764)          & 59 (0.089)          & 64 (\textbf{0.012}) & 54 (0.617)          & 57 (0.193)          & 60 (0.057)          & 54 (0.617)          \\
+ S5 & 50 (1.000)     & 63 (\textbf{0.012}) & 63 (\textbf{0.012}) & 55 (0.484)          & 55 (0.368)          & 59 (0.089)          & 54 (0.617)          & 46 (0.484)          & 58 (0.193)          & 59 (0.089)          \\
+\bottomrule
+\end{tabular}
